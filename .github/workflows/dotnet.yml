@@ -39,6 +39,6 @@ jobs:
       uses: dorny/test-reporter@v2
       if: success() || failure()
       with:
-        name: Test
+        name: Tests
         path: GitHubCiCd.Tests/TestResults/*.trx
         reporter: dotnet-trx
